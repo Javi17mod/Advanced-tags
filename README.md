@@ -2,9 +2,9 @@
 Tags for html, better tags in a small piece of code
 ## V0.3.1
 # Instalation
-Insert this code in your html webpage:
+Insert this code at the end of your html webpage:
 ```html
-<script src="https://raw.githubusercontent.com/Javi17mod/Advanced-tags/main/package.js"></script>
+ <script src="https://prueba-tags-lessgreater.javi17mod.repl.co/pack.js"></script>
 ```
 And you have all installed,
 # Guide
