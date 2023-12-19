@@ -7,9 +7,15 @@ Insert this code in your html webpage:
 ```
 And you have all installed,
 # Guide
-### (1/14) share-code tag
+## (1/14) share-code tag
 This tag will made you an area where they are the language and the copy button, like in MarkDown but in HTML:
 ```html
 <share-code language="javascript" width="500px" height="500px" backgroundColor="blue">Code</share-code>
 ```
-they are 4 input, the first is the language input, ```html language="javascript" ``` you can put any language that you want **the code it is not processed or represented** , the second and the third input, ```html width="500px" height="500px" ```are size parameters, and the last input it is the background color, ```html backgroundColor="blue"```
+they are 4 input, the first is the language input, ```html language="javascript" ``` you can put any language that you want (**the code it is not processed or represented**) , the second and the third input, ```html width="500px" height="500px" ```are size parameters, and the last input it is the background color, ```html backgroundColor="blue"``` you can set it in predeterminaded colors or hex colors
+## (2/14) Console tag
+This tag will print all the console logs, warnings and errors:
+```html
+<console size="30px"></console>
+```
+
