@@ -4,7 +4,7 @@ Tags for html, better tags in a small piece of code
 # Instalation
 Insert this code at the end of your html webpage:
 ```html
- <script src="https://prueba-tags-lessgreater.javi17mod.repl.co/pack.js"></script>
+ <script src="https://raw.githubusercontent.com/Javi17mod/Advanced-tags/main/pack.js"></script>
 ```
 And you have all installed,
 # Guide
