@@ -1,6 +1,6 @@
 # Advanced-tags
 Tags for html, better tags in a small piece of code
-## V0.3.1
+## V0.4.1
 # Instalation
 Insert this code at the end of your html webpage:
 ```html
@@ -8,20 +8,28 @@ Insert this code at the end of your html webpage:
 ```
 And you have all installed,
 # Guide
-## (1/14) share-code tag
+## Select menu tag (advanced)
+```html
+ <select-menu menus="Element1|Element2|Element3|" var="almacenatedvariable" width="500px" backgroundColor="#ffffff" text-color="#000000" border-color="#ee00ee"></select-menu>
+```
+## Print var tag
+```html
+ <echo-var var="loged" size="20px"></echo-var>
+```
+## share-code tag
 This tag will made you an area where they are the language and the copy button, like in MarkDown but in HTML:
 ```html
 <share-code language="javascript" width="500px" height="500px" backgroundColor="blue">Code</share-code>
 ```
 they are 4 input, the first is the language input, ```html language="javascript" ``` you can put any language that you want (**the code it is not processed or represented**) , the second and the third input, ```html width="500px" height="500px" ```are size parameters, and the last input it is the background color, ```html backgroundColor="blue"``` you can set it in predeterminaded colors or hex colors
-## (2/14) Console tag
+## Console tag
 This tag will print all the console logs, warnings and errors:
 ```html
 <console size="30px"></console>
 ```
 This tag will output console logs and messages within a container of size 30px.
 
-## (3/14) clock tag
+## clock tag
 
 This tag will display a clock with a specified size and format:
 
@@ -30,7 +38,7 @@ This tag will display a clock with a specified size and format:
 ```
 The size attribute controls the size of the clock, and the format attribute determines the display format of the clock.
 
-## (4/14) IP tag
+## IP tag
 
 This tag will display an IP address with a specified size:
 
@@ -39,7 +47,7 @@ This tag will display an IP address with a specified size:
 ```
 The size attribute controls the size of the displayed IP address.
 
-## (5/14) fullscreen tag
+## fullscreen tag
 
 This tag represents an element for displaying fullscreen mode, potentially an icon or a button:
 
@@ -48,7 +56,7 @@ This tag represents an element for displaying fullscreen mode, potentially an ic
 ```
 The ID attribute is specified for the element.
 
-## (6/14) YouTube tag
+## YouTube tag
 
 This tag represents a YouTube icon or button with specific attributes:
 
@@ -57,7 +65,7 @@ This tag represents a YouTube icon or button with specific attributes:
 ```
 Attributes include size for specifying the size of the YouTube element, channelID for the channel identification, channelName for the channel name, and subscribe for subscription status.
 
-## (7/14) Twitch tag
+## Twitch tag
 
 This tag represents a Twitch icon or button with specific attributes:
 
@@ -66,7 +74,7 @@ This tag represents a Twitch icon or button with specific attributes:
 ```
 The size attribute controls the size of the Twitch element, and channelName represents the Twitch channel name.
 
-## (8/14) twitter tag
+## twitter tag
 
 This tag represents a Twitter icon or button with specific attributes:
 
@@ -75,7 +83,7 @@ This tag represents a Twitter icon or button with specific attributes:
 ```
 The size attribute specifies the size of the Twitter element, and ID represents the identification of the Twitter handle.
 
-## (9/14) instagram tag
+## instagram tag
 
 This tag represents an Instagram icon or button with specific attributes:
 
@@ -93,7 +101,7 @@ This tag represents a Facebook icon or button with specific attributes:
 ```
 The size attribute specifies the size of the Facebook element, and ID represents the identification of the Facebook handle.
 
-## (11/14) date tag
+## date tag
 
 This tag will display the current date with customizable options:
 
@@ -102,7 +110,7 @@ This tag will display the current date with customizable options:
 ```
 The size attribute controls the size of the displayed date, order allows for choosing the date format, and longText specifies if the full date should be displayed.
 
-## (12/14) console-log tag
+## console-log tag
 
 This tag represents a styled console log message:
 
@@ -111,7 +119,7 @@ This tag represents a styled console log message:
 ```
 The text attribute specifies the message text, and type allows for specifying the log type (log, warn, error, etc.).
 
-## (13/14) video-player tag
+## video-player tag
 
 This tag creates a video player with specified attributes:
 
@@ -120,7 +128,7 @@ This tag creates a video player with specified attributes:
 ```
 Attributes include src for the video source, width for the width of the video player, fullscreen to enable fullscreen mode, and color to set the player's color.
 
-## (14/14) Icon tag
+## Icon tag
 
 This tag displays an icon with a specified source:
 
